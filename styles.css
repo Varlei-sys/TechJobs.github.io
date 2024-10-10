@@ -7,7 +7,7 @@ body {
 nav {
     background-color: #096cec;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 5px rgba(7, 97, 231, 0.3);
 }
 nav a {
     float: left;
@@ -37,7 +37,7 @@ h1, h2 {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #096cec;
     color: white;
     position: fixed;
     width: 100%;
