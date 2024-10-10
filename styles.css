@@ -7,6 +7,7 @@ body {
 nav {
     background-color: #333;
     overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 nav a {
     float: left;
@@ -15,8 +16,9 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: background-color 0.3s;
 }
-nav a:hover {
+nav a:hover, nav a.active {
     background-color: #ddd;
     color: black;
 }
