@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-    background-color: #333;
+    background-color: #096cec;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -18,14 +18,18 @@ nav a {
     text-decoration: none;
     transition: background-color 0.3s;
 }
-nav a:hover, nav a.active {
+
+nav a:hover, 
+nav a.active {
     background-color: #ddd;
     color: black;
 }
+
 section {
     padding: 20px;
     margin: 10px;
 }
+
 h1, h2 {
     color: #333;
 }
