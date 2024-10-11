@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-    background-color: #096cec;
+    background-color: #202020;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(7, 97, 231, 0.3);
 }
@@ -36,7 +36,7 @@ section {
 }
 
 h1, h2 {
-    color: #096cec;
+    color: #202020;
 }
 
 footer {
