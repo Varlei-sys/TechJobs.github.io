@@ -24,7 +24,7 @@ nav a {
     transition: background-color 0.3s;
 }
 
-nav a:hover, nav a.active {
+nav a:hover, nav a.clicker {
     background-color: #666262;
     color: rgb(9, 140, 247);
 }
