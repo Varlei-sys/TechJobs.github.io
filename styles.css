@@ -24,8 +24,7 @@ nav a {
     transition: background-color 0.3s;
 }
 
-nav a:hover, 
-nav a.active {
+nav a:hover, nav a.active {
     background-color: #ddd;
     color: rgb(9, 140, 247);
 }
