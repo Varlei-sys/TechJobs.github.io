@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-    background-color: #202020;
+    background-color: rgb(68, 65, 65);
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(7, 97, 231, 0.3);
 }
@@ -42,7 +42,7 @@ h1, h2 {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #096cec;
+    background-color: rgb(68, 65, 65);
     color: white;
     position: fixed;
     width: 100%;
