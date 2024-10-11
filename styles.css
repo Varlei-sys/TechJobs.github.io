@@ -39,7 +39,7 @@ h1, h2 {
 }
 
 footer {
-    text-align: center;
+    text-align: justified;
     padding: 5px;
     background-color: rgb(68, 65, 65);
     color: white;
