@@ -1,3 +1,8 @@
+head{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -22,7 +27,7 @@ nav a {
 nav a:hover, 
 nav a.active {
     background-color: #ddd;
-    color: black;
+    color: rgb(9, 140, 247);
 }
 
 section {
