@@ -47,3 +47,19 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+menu {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+menu li {
+    list-style-type: none;
+}
+menu li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+menu li a:hover {
+    text-decoration: 
+}
