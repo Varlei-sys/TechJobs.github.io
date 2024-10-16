@@ -1,4 +1,4 @@
-head{
+9head{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -62,4 +62,52 @@ menu li a {
 }
 menu li a:hover {
     text-decoration: 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.menu-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Inicialmente fora da tela */
+    width: 250px;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-left: 1px solid #ccc;
+    transition: right 0.3s ease;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.menu.active {
+    right: 0; /* Mostra o menu quando ativo */
+}
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+.menu li {
+    margin: 15px 0;
+}
+.menu a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.menu a:hover {
+    text-decoration: underline;
 }
